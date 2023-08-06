@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 600px;
+    background-color: #b3e140;
+    background-image: url('./images/BG1.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+a.navbar-brand{
+    color: white;
+}
+a.navbar-brand:hover{
+    color: white;
+    text-shadow: 0 0 10px #00ff35, 0 0 3px #d3ff00;
+}
+.nav-item a{
+    color: white;
+}
+.nav-item a:hover{
+    color: white;
+    text-shadow: 0 0 10px #00ff35, 0 0 3px #d3ff00;
+}
+.sub-header{
+    height: 150px;
+    background-color: #000000d6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@media(max-width:50em){
+    .sub-header{
+        height: 100vh;
+        background-color: #7fa12b;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+.title h4{
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+    color: #d7fffd;
+    text-shadow: 2px 2px 0px black;
+    cursor: grab;
+    
+}
+.title h4:hover{
+    text-shadow: 2px 2px 0px black, 0 0 1em #12d3ff, 0 0 1.2em #70ff00;
+}
+.shoes1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shoes1 img{
+    width: 12rem;
+    height: 9rem;
+}
+
+.gender-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #d0d0d0;
+    background-attachment: fixed;
+    
+}
+/* KIDS */
+.gender-subkid{
+    width: 47%;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1511556532299-8f662fc26c06?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-size: contain;
+    background-position: -38%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+.gender-subkids{
+    width: 47%;
+    height: 100vh;
+    background-image: url('https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1016,c_limit/b9786e69-3c2d-48bf-b906-96fb47548a31/nike-kids.png');
+    background-position: 22%;
+    background-size: contain;
+    background-attachment: fixed;
+}
+.gender-section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #d0d0d0;
+    background-attachment: fixed;
+}
+/* Women */
+.gender-subwomen{
+    width: 47%;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1590330297626-d7aff25a0431?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80');
+    background-size: contain;
+    background-position: -38%;
+    background-attachment: fixed;
+    
+}
+.gender-subwomens{
+    width: 47%;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1512374382149-233c42b6a83b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80');
+    background-size: contain;
+    background-position: 36%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.gender-section3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100vh;
+    background-attachment: fixed;
+    background-color: #d0d0d0;
+}
+/* MEN */
+.gender-submens{
+    width: 47%;
+    height: 100vh;
+    background-image: url('https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_467,c_limit/f92f195d-4ee4-4efd-bbc5-307e87eb47aa/men-s-shoes-clothing-accessories.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    
+}
+.gender-submen{
+    width: 47%;
+    height: 95vh;
+    background-image: url('https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_467,c_limit/6bb106f5-4cae-4114-ac36-83e46beb9414/men-s-shoes-clothing-accessories.png');
+    background-size: cover;
+   
+    
+}
+.gender-text{
+    color: #ffffff;
+}
+@media(max-width:50em){
+    .gender-text{
+        color: #0e0e0e;
+    }
+}
+
+
+
+/* FOOTER */
+footer{
+    height: 350px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .f1{
+    width: 56rem;
+    height: 23rem;
+    display: flex;
+}
+.f1 .f1-1{
+    width: 670px;
+    height: 14rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+}
+.f1-1 a.h1{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.f1-1 a.h1:hover{
+    color:#ffffff ;
+    text-shadow: 0 0 10px #00ff35, 0 0 3px #d3ff00;
+}
+.f1-1 a.h2{
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 100;
+    
+}
+.f1-1 a.h2:hover{
+    color:#ffffff ;
+    text-shadow: 0 0 10px #00ff35, 0 0 3px #d3ff00;
+}
+.f2{
+    width: 300px;
+    height: 19rem;
+    display: flex;
+    justify-content: end;
+    justify-content: space-evenly;
+}
+.fa-brands{
+    color: #2f2f2f;
+    font-size: 35px;
+}
+.fa-brands:hover{
+    color: #ffffff;
+    font-size: 35px;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.last h5{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 100;
+}
+@media(max-width:50em){
+    footer{
+        display: none;
+    }
+    .last{
+        display: none;
+    }
+}
+
+/* MOBILE VIEW */
+@media(max-width:50em){
+    .gender-subkids{
+        display: none;
+    }
+    .gender-subkid{
+        background-image: url('./images/wom.jpeg');
+        background-size: cover;
+        width: 100%;
+
+    }
+    .gender-subwomen{
+        display: none;
+    }
+    .gender-subwomens{
+        width: 100%;
+        background-image: url('./images/Kids.jpeg');
+        background-size: cover;
+        width: 100%;
+    }
+    .gender-submens{
+        background-image: url('./images/mens.jpeg');
+        background-size: cover;
+        width: 100%;
+    }
+    .gender-submen{
+        display: none;
+    }
+}
+#butone{
+    background-color: white;
+}
+#buttwo{
+    background-color: white;
+}
+#butthree{
+    background-color: white;
+}
+@media(max-width:50em){
+    #butone{
+        background-color: #a5a5a5;
+    }
+    #buttwo{
+        background-color: white;
+    }
+    #butthree{
+        background-color: #a5a5a5;
+    }
+}
+#butone:hover{
+    background-color: rgb(230, 230, 230);
+}
+#buttwo:hover{
+    background-color: rgb(230, 230, 230);
+}
+#butthree:hover{
+    background-color: rgb(230, 230, 230);
+}
+.footer-responsive{
+    display: none;
+}
+@media(max-width:50em){
+    .footer-responsive{
+        width: 100%;
+        height: 650px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+    }
+    .f1{
+        height: 55rem;
+        background-color: black;
+    }
+    .f1 .f1-1{
+        width: 20rem;
+        height: 14rem;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-evenly;
+    }
+    .f1-1 a.h1{
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .f1-1 a.h1:hover{
+        color:#ffffff ;
+        text-shadow: 0 0 10px #00ff35, 0 0 3px #d3ff00;
+    }
+    .f1-1 a.h2{
+        font-size: 12px;
+        text-decoration: none;
+        font-weight: 100;
+        
+    }
+    .f1-1 a.h2:hover{
+        color:#ffffff ;
+        text-shadow: 0 0 10px #00ff35, 0 0 3px #d3ff00;
+    }
+    .f2{
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .fa-brands{
+        color: #2f2f2f;
+        font-size: 35px;
+    }
+    .fa-brands:hover{
+        color: #ffffff;
+        font-size: 35px;
+    }
+    .res-last{
+        font-size: 0.7rem;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+    }
+    .res-last h5{
+        color: white;
+        font-size: 0.7rem;
+        text-decoration: none;
+    }
+}
+
+
+
+
+
